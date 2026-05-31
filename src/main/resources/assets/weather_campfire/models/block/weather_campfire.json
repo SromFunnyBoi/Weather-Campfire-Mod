@@ -1,0 +1,11 @@
+{
+  "parent": "weather_campfire:custom/weather_campfire",
+  "textures": {
+    "all": "minecraft:block/oak_log",
+    "particle": "minecraft:block/soul_campfire_log_lit",
+    "0": "weather_campfire:block/oak",
+    "1": "weather_campfire:block/bottom",
+    "missing": "minecraft:block/soul_campfire_fire"
+  },
+  "render_type": "cutout"
+}
