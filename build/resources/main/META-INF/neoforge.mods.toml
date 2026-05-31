@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License v3.0 only"
+
+[[mods]]
+modId="weather_campfire"
+version="1.0.0"
+displayName="Weather Campfire"
+displayURL="https://modrinth.com/mod/weather-campfire"
+logoFile="logo.png"
+credits="Created by SromFunnyBoi. Created using mod maker MCreator - https://mcreator.net/about"
+authors="SromFunnyBoi"
+description="Simple mod that adds a campfire and herbs that can change the weather"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.weather_campfire]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.weather_campfire]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

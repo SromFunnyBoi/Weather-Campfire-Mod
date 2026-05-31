@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "item": "minecraft:fern"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "minecraft:short_grass"
+    }
+  ],
+  "result": {
+    "id": "weather_campfire:herbs",
+    "count": 5
+  }
+}
